@@ -30,13 +30,13 @@ function ReceiptScanner() {
             const token = localStorage.getItem("token");
 
             const response = await axios.post(
-                "http://localhost:8080/api/receipt/create-expense",
+                "https://ai-expense-manager-backend-2.onrender.com/api/receipt/create-expense",
                 formData,
                 {
                     headers: {
                         Authorization: `Bearer ${token}`,
-                        "Content-Type": "multipart/form-data"
-                    }
+                        "Content-Type": "multipart/form-data",
+                    },
                 }
             );
 
@@ -56,13 +56,12 @@ function ReceiptScanner() {
                 alert("Receipt processing failed");
             }
 
+        } finally {
+            setLoading(false);
         }
-
-        setLoading(false);
     };
 
     return (
-
         <Layout>
 
             <div className="card">
@@ -108,7 +107,6 @@ function ReceiptScanner() {
             </div>
 
         </Layout>
-
     );
 }
 
