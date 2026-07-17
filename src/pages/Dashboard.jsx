@@ -50,7 +50,7 @@ function Dashboard() {
 
                         <h2 className="fw-bold mb-2">
 
-                            Welcome back, {userName}
+                            Welcome back
 
                         </h2>
 
