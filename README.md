@@ -1,16 +1,90 @@
-# React + Vite
+# 💰 AI Expense Manager - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern React-based frontend for the AI Expense Manager application that helps users manage expenses, scan receipts using OCR, and track budgets through an intuitive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🚀 Features
 
-## React Compiler
+- 🔐 User Authentication
+- 💸 Expense Management
+- 📂 Category Management
+- 📊 Budget Tracking
+- 🧾 OCR Receipt Scanner
+- 📱 Responsive UI
+- 🌐 REST API Integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+# 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- Vite
+- JavaScript
+- Axios
+- CSS
+- HTML
+
+---
+
+# 📂 Project Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── services/
+ ├── assets/
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+# ⚙️ Installation
+
+```bash
+git clone <repository-url>
+
+cd AI-Expense-Manager-Frontend
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 🌐 Live Demo
+
+- Frontend: https://ai-expense-manager-frontend.vercel.app/
+
+---
+
+# 🚀 Deployment
+
+| Service | Platform |
+|---------|----------|
+| Frontend | Vercel |
+| Backend | Render |
+| Database | Neon PostgreSQL |
+
+---
+
+# 🔮 Future Improvements
+
+- Dark Mode
+- Expense Analytics Dashboard
+- AI Insights
+- Export Reports
+- Notifications
+
+---
+
+# 👨‍💻 Author
+
+**Trayambak Pandey**
+
+Java Full Stack Developer
+
+GitHub: https://github.com/pandeytrayambak1519
